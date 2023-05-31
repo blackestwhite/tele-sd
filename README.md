@@ -6,7 +6,7 @@ Stable Diffusion on Telegram Bot
 note that NSFW filter is turned off.
 you can turn it on by commenting out the following line:
 ```py
-pipe.safety_checker = lambda images, **kwargs: (images, False)
+pipe.safety_checker = None
 ```
 
 ## samples
